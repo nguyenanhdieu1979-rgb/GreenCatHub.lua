@@ -1,4 +1,4 @@
-loadstring(game:HttpGet("https://raw.githubusercontent.com/hdanhhub/hdanhhub/refs/heads/main/fixlagbyhdanh.lua"))()
+loadstring(game:HttpGet("https://raw.githubusercontent.com/xerohub/xerohub/refs/heads/main/fixlagbyxero.lua"))()
 loadstring(game:HttpGet("https://raw.githubusercontent.com/AnhDangNhoEm/TuanAnhIOS/refs/heads/main/koby"))()
 
 -- ==========================================
@@ -64,10 +64,10 @@ local Root = HumanoidRootPart
 -- ==========================================
 -- LOAD UI LIBRARY (Xero Hub)
 -- ==========================================
-Library = loadstring(game:HttpGet("https://raw.githubusercontent.com/hdanhhub/UI/refs/heads/main/ui_BananaHub_final.lua"))()
+Library = loadstring(game:HttpGet("https://raw.githubusercontent.com/xerohub/UI/refs/heads/main/ui_BananaHub_final.lua"))()
 
 Window = Library:CreateWindow({
-    Title = "HDanh Hub",
+    Title = "Xero Hub",
     Desc = "- Blox Fruit",
     Image = "rbxassetid://87131771325222"
 })
